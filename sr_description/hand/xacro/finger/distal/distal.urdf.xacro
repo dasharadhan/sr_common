@@ -54,7 +54,7 @@ xmlns:geom="http://playerstage.sourceforge.net/gazebo/xmlschema/#geom">
 		</xacro:if>
 		<xacro:unless value="${bt_sp}">
                   <!-- Standard distal  -->
-                  <mesh filename="package://sr_description/meshes/hand/F1.dae"
+                  <mesh filename="package://sr_description/meshes/hand/F1_new1.stl"
 			scale="0.001 0.001 0.001" />
 		</xacro:unless>
               </xacro:unless>
