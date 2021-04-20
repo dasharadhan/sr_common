@@ -23,7 +23,7 @@ Little finger
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
 ===========  =========================================================  =========================================================  ============================
-Metacarpal       `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_
+Metacarpal       `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_            Asm_Lttle_Metacarpal
 ===========  =========================================================  =========================================================  ============================
 
 ===========  =========================================================  =========================================================  ============================
@@ -31,9 +31,9 @@ Thumb
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
 ===========  =========================================================  =========================================================  ============================
-Distal       `TH1_z.stl <hand/TH1_z.stl>`_                              `TH1_z.stl <hand/TH1_z.stl>`_
-Middle       `TH2_z.stl <hand/TH2_z.stl>`_                              `TH2_z.stl <hand/TH2_z.stl>`_
-Proximal     `TH3_z.stl <hand/TH3_z.stl>`_                              `TH3_z.stl <hand/TH3_z.stl>`_
+Distal       `TH1_z.stl <hand/TH1_z.stl>`_                              `TH1_z.stl <hand/TH1_z.stl>`_                              Asm_Thumb_Distal
+Middle       `TH2_z.stl <hand/TH2_z.stl>`_                              `TH2_z.stl <hand/TH2_z.stl>`_                              Asm_Thumb_Middle
+Proximal     `TH3_z.stl <hand/TH3_z.stl>`_                              `TH3_z.stl <hand/TH3_z.stl>`_                              Asm_Thumb_Proximal
 ===========  =========================================================  =========================================================  ============================
 
 ===========  =========================================================  =========================================================  ============================
@@ -41,9 +41,9 @@ Others
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
 ===========  =========================================================  =========================================================  ============================
-Palm         `palm.stl <hand/palm.stl>`_                                `palm.stl <hand/palm.stl>`_
-Wrist        `wrist.stl <hand/wrist.stl>`_                              `wrist.stl <hand/wrist.stl>`_
-Forearm      `forearm.stl <hand/forearm.stl>`_                          `forearm.stl <hand/forearm.stl>`_
+Palm         `palm.stl <hand/palm.stl>`_                                `palm.stl <hand/palm.stl>`_                                Asm_Palm
+Wrist        `wrist.stl <hand/wrist.stl>`_                              `wrist.stl <hand/wrist.stl>`_                              Asm_Wrist_Pitch
+Forearm      `forearm.stl <hand/forearm.stl>`_                          `forearm.stl <hand/forearm.stl>`_                          Asm_Motor_Base_M5_EDC
 cable        `cable_visual.stl <hand/cable_visual.stl>`_                `cable_collision.stl <hand/cable_collision.stl>`_
 ===========  =========================================================  =========================================================  ============================
 
@@ -67,7 +67,7 @@ Others
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 Name         Visual Mesh                                                Collision Mesh                                   Coordinate System placed in
 ===========  =========================================================  ===============================================  ============================
-Forearm      `forearm_lite.stl <hand/forearm_lite.stl>`_                `forearm_lite.stl <hand/forearm_lite.stl>`_
+Forearm      `forearm_lite.stl <hand/forearm_lite.stl>`_                `forearm_lite.stl <hand/forearm_lite.stl>`_      base_Simplified
 ===========  =========================================================  ===============================================  ============================
 
 UR Arms
@@ -78,7 +78,7 @@ Others
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name            Visual Mesh                                                Collision Mesh                                           Coordinate System placed in
 ==============  =========================================================  =======================================================  ============================
-Mounting plate  `ur_mounting_plate.stl <hand/ur_mounting_plate.stl>`_      `ur_mounting_plate.stl <hand/ur_mounting_plate.stl>`_
+Mounting plate  `ur_mounting_plate.stl <hand/ur_mounting_plate.stl>`_      `ur_mounting_plate.stl <hand/ur_mounting_plate.stl>`_    C6M2_to_UR5-UR10,00
 ==============  =========================================================  =======================================================  ============================
 
 Joints
