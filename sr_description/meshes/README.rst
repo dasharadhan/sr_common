@@ -150,6 +150,7 @@ To get F1 you need:
 1. Open in SolidWorks `Asm_Distal` 
 2. Choose the correct configuration (in this case with the desired fingertip) 
 3. Save the STL in the the custom coordinate System:
+
    * Start by checking if there is a configuration with the reference “XACRO”. This configuration has unnecessary components suppressed making the files lighter to work with.
    * Save the .STl in the name used by in the tables, in this case is "F1". Select Options before saving, set the resolution to course, check if you have the same checkboxes ticked and change the output coordinate system to the indicated in this document, in this case the `Coordinate System 1`.
 
