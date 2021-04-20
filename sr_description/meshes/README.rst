@@ -140,3 +140,19 @@ Joints
 | rh_thdistal     | rh_thtip        | <origin rpy="0 0 0" xyz="0 0 0.0275"/>                         |
 +-----------------+-----------------+----------------------------------------------------------------+
 
+Mesh Generation Process in Solidworks
+======================================
+
+To generate the meshes for the urdf models, it is required to save as STL the assemblies in the proper coordinate system, both mentioned above. See example below.
+
+To get F1 you need:
+1) Open in SolidWorks `Asm_Distal` 
+2) Choose the correct configuration (in this case with the desired fingertip) 
+3) Save the STL in the the custom coordinate System:
+   * Start by checking if there is a configuration with the reference “XACRO”. This configuration has unnecessary components suppressed making the files lighter to work with.
+   * Save the .STl in the name used by in the tables, in this case is "F1". Select Options before saving, set the resolution to course, check if you have the same checkboxes ticked and change the output coordinate system to the indicated in this document, in this case the `Coordinate System 1`.
+
+Generating coordinate system
+----------------------------
+
+If this is a new assembly or part, you might have to create a custom coordinate system. On the top bar do: `Insert->Reference Geometry->Coordinate System`. For locating the point and axis orientation check the table in this document.
