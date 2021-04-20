@@ -1,7 +1,8 @@
 Dexterous Hand meshes
 ======================
 
-
+.. table::
+   :class: tight-table
    
    +--------------------------------------------------+--------------------------------------------------+--------------------------------------------------+
    | Icon picture                                     | Icon text                                        |  Icon explanation                                | 
@@ -38,16 +39,13 @@ Proximal
 
 
 Fingers
-
-.. table::
-   :class: tight-table
-   
+  
 ===========  =========================================================  =========================================================
 Name         Visual Mesh                                                Collision Mesh    
 ===========  =========================================================  =========================================================
-Distal       `cable_collision_mesh <hand/cable_collision_mesh.stl>`_    `cable_collision_mesh <hand/cable_collision_mesh.stl>`_
+Distal       `F1.stl <hand/F1.stl>`_                                    `F1.stl <hand/F1.stl>`_
 Middle   
 Proximal      
 ===========  =========================================================  =========================================================
 
-
+Distal       `F1.stl <hand/cable_collision_mesh.stl>`_    `cable_collision_mesh <hand/cable_collision_mesh.stl>`_
