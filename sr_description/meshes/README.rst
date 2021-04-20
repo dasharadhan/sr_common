@@ -146,6 +146,7 @@ Mesh Generation Process in Solidworks
 To generate the meshes for the urdf models, it is required to save as STL the assemblies in the proper coordinate system, both mentioned above. See example below.
 
 To get F1 you need:
+
 1. Open in SolidWorks `Asm_Distal` 
 2. Choose the correct configuration (in this case with the desired fingertip) 
 3. Save the STL in the the custom coordinate System:
