@@ -29,7 +29,7 @@ Dexterous Hand meshes
    +--------------------------------------------------+--------------------------------------------------+--------------------------------------------------+
 
 ===========  =========================================================  =========================================================
-             Visual Mesh                                                Collision Mesh    
+Name         Visual Mesh                                                Collision Mesh    
 ===========  =========================================================  =========================================================
 Distal       `cable_collision_mesh <hand/cable_collision_mesh.stl>`_    `cable_collision_mesh <hand/cable_collision_mesh.stl>`_
 Middle   
@@ -43,7 +43,7 @@ Fingers
    :class: tight-table
    
 ===========  =========================================================  =========================================================
-             Visual Mesh                                                Collision Mesh    
+Name         Visual Mesh                                                Collision Mesh    
 ===========  =========================================================  =========================================================
 Distal       `cable_collision_mesh <hand/cable_collision_mesh.stl>`_    `cable_collision_mesh <hand/cable_collision_mesh.stl>`_
 Middle   
