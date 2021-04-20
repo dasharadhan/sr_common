@@ -41,4 +41,4 @@ False  True   True
 True   True   True
 =====  =====  ======
 
-`stl <https://github.com/shadow-robot/sr_common/blob/F_updating_models/sr_description/meshes/hand/cable_collision_mesh.stl>`_.
+`stl <hand/cable_collision_mesh.stl>`_.
