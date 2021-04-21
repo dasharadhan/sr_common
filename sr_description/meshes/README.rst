@@ -12,9 +12,9 @@ Fingers (Index to Ring)
 ---------------------------------------------------------------------------------------------------------------------------------  ----------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
 ===========  =========================================================  =========================================================  ============================
-Distal       `F1.stl <hand/F1.stl>`_                                    `F1.stl <hand/F1.stl>`_                                    Asm_Distal
-Middle       `F2.stl <hand/F2.stl>`_                                    `F2.stl <hand/F2.stl>`_                                    Asm_Middle_Right
-Proximal     `F3.stl <hand/F3.stl>`_                                    `F3.stl <hand/F3.stl>`_                                    Asm_Proximal_Hub
+Distal       `F1.stl <hand/F1.stl>`_                                    `F1_collision.stl <hand/F1_collision.stl>`_                Asm_Distal
+Middle       `F2.stl <hand/F2.stl>`_                                    `F2_collision.stl <hand/F2_collision.stl>`_                Asm_Middle_Right
+Proximal     `F3.stl <hand/F3.stl>`_                                    `F3_collision.stl <hand/F3_collision.stl>`_                Asm_Proximal_Hub
 Knuckle?      `knuckle.stl <hand/knuckle.stl>`_                         `knuckle.stl <hand/knuckle.stl>`_                          Asm_Knuckle
 ===========  =========================================================  =========================================================  ============================
 
@@ -23,7 +23,7 @@ Little finger
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
 ===========  =========================================================  =========================================================  ============================
-Metacarpal       `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_            Asm_Lttle_Metacarpal
+Metacarpal   `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                Asm_Lttle_Metacarpal
 ===========  =========================================================  =========================================================  ============================
 
 ===========  =========================================================  =========================================================  ============================
@@ -31,9 +31,9 @@ Thumb
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
 ===========  =========================================================  =========================================================  ============================
-Distal       `TH1_z.stl <hand/TH1_z.stl>`_                              `TH1_z.stl <hand/TH1_z.stl>`_                              Asm_Thumb_Distal
-Middle       `TH2_z.stl <hand/TH2_z.stl>`_                              `TH2_z.stl <hand/TH2_z.stl>`_                              Asm_Thumb_Middle
-Proximal     `TH3_z.stl <hand/TH3_z.stl>`_                              `TH3_z.stl <hand/TH3_z.stl>`_                              Asm_Thumb_Proximal
+Distal       `TH1.stl <hand/TH1_z.stl>`_                                `TH1.stl <hand/TH1_z.stl>`_                                Asm_Thumb_Distal
+Middle       `TH2.stl <hand/TH2_z.stl>`_                                `TH2.stl <hand/TH2_z.stl>`_                                Asm_Thumb_Middle
+Proximal     `TH3.stl <hand/TH3_z.stl>`_                                `TH3.stl <hand/TH3_z.stl>`_                                Asm_Thumb_Proximal
 ===========  =========================================================  =========================================================  ============================
 
 ===========  =========================================================  =========================================================  ============================
