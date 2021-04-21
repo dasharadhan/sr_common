@@ -15,7 +15,7 @@ Name         Visual Mesh                                                Collisio
 Distal       `<hand/distal.stl>`_                                       `<hand/distal_collision.stl>`_                             Asm_Distal
 Middle       `<hand/middle.stl>`_                                       `<hand/middle_collision.stl>`_                             Asm_Middle_Right
 Proximal     `<hand/proximal.stl>`_                                     `<hand/proximal_collision.stl>`_                           Asm_Proximal_Hub
-Knuckle?     `<hand/knuckle.stl>`_                                      `<hand/knuckle_collision.stl>`_                            Asm_Knuckle
+Knuckle      `<hand/knuckle.stl>`_                                      Geometry:<cylinder length="0.014" radius="0.007"/>         Asm_Knuckle
 ===========  =========================================================  =========================================================  ============================
 
 ===========  =========================================================  =========================================================  ============================
