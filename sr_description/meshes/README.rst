@@ -12,19 +12,19 @@ Fingers (Index to Ring)
 ---------------------------------------------------------------------------------------------------------------------------------  ----------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
 ===========  =========================================================  =========================================================  ============================
-Distal       `F1.stl <hand/F1.stl>`_                                    `F1_collision.stl <hand/F1_collision.stl>`_                Asm_Distal
-Middle       `F2.stl <hand/F2.stl>`_                                    `F2_collision.stl <hand/F2_collision.stl>`_                Asm_Middle_Right
-Proximal     `F3.stl <hand/F3.stl>`_                                    `F3_collision.stl <hand/F3_collision.stl>`_                Asm_Proximal_Hub
-Knuckle?      `knuckle.stl <hand/knuckle.stl>`_                         `knuckle.stl <hand/knuckle.stl>`_                          Asm_Knuckle
+Distal       `distal.stl <hand/distal.stl>`_                            `distal_collision.stl <hand/distal_collision.stl>`_        Asm_Distal
+Middle       `middle.stl <hand/middle.stl>`_                            `middle_collision.stl <hand/middle_collision.stl>`_        Asm_Middle_Right
+Proximal     `proximal.stl <hand/F3.stl>`_                              `proximal_collision.stl <hand/proximal_collision.stl>`_    Asm_Proximal_Hub
+Knuckle?      `knuckle.stl <hand/knuckle.stl>`_                         `knuckle_collision.stl <hand/knuckle_collision.stl>`_      Asm_Knuckle
 ===========  =========================================================  =========================================================  ============================
 
-===========  =========================================================  =========================================================  ============================
+===========  =========================================================  ================================================================  ============================
 Little finger
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
-===========  =========================================================  =========================================================  ============================
-Metacarpal   `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                Asm_Lttle_Metacarpal
-===========  =========================================================  =========================================================  ============================
+===========  =========================================================  ================================================================  ============================
+Metacarpal   `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                `lfmetacarpal_collision.stl <hand/lfmetacarpal_collision.stl>`_                Asm_Lttle_Metacarpal
+===========  =========================================================  ================================================================  ============================
 
 ===========  =========================================================  =========================================================  ============================
 Thumb
