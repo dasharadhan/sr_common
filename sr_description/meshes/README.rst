@@ -31,9 +31,9 @@ Thumb
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
 ===========  =========================================================  =========================================================  ============================
-Distal       `TH1.stl <hand/TH1_z.stl>`_                                `TH1.stl <hand/TH1_z.stl>`_                                Asm_Thumb_Distal
-Middle       `TH2.stl <hand/TH2_z.stl>`_                                `TH2.stl <hand/TH2_z.stl>`_                                Asm_Thumb_Middle
-Proximal     `TH3.stl <hand/TH3_z.stl>`_                                `TH3.stl <hand/TH3_z.stl>`_                                Asm_Thumb_Proximal
+Distal       `thdistal.stl <hand/thdistal.stl>`_                        `thdistal_collision.stl <hand/thdistal_collision_z.stl>`_  Asm_Thumb_Distal
+Middle       `thmiddle.stl <hand/thmiddle_z.stl>`_                      `thmiddle_collision.stl <hand/thmiddle_collision.stl>`_    Asm_Thumb_Middle
+Proximal     `thproximal.stl <hand/thproximal.stl>`_                    `<hand/thproximal_collision.stl>`_                         Asm_Thumb_Proximal
 ===========  =========================================================  =========================================================  ============================
 
 ===========  =========================================================  =========================================================  ============================
