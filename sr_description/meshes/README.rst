@@ -49,16 +49,14 @@ cable        `cable_visual.stl <hand/cable_visual.stl>`_                `cable_c
 
 Dexterous Hand Plus
 --------------------
-
 ===========  ============================================================  =================================================================  ============================
 Others
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name                Visual Mesh                                                                                                                Collision Mesh                                                                                                                        Coordinate System placed in
 ===========  ============================================================  =================================================================  ============================
-Forearm           `forearm_plus.stl <hand/forearm_visual_plus.stl>`_                                             `forearm_plus_collision.stl <hand/forearm_plus_collision.stl>`_
-cable                 `cable_visual.stl <hand/cable_visual.stl>`_                                                            `cable_collision.stl <hand/cable_collision.stl>`_
+Forearm           `forearm_plus.stl <hand/forearm_visual_plus.stl>`_                                             `forearm_plus_collision.stl <hand/forearm_plus_collision.stl>`_                                  Asm_?
+cable                 `cable_visual.stl <hand/cable_visual.stl>`_                                                            `cable_collision.stl <hand/cable_collision.stl>`_                                                              Asm_?
 ===========  ============================================================  =================================================================  ============================
-
 
 Dexterous Hand Lite
 --------------------
