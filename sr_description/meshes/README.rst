@@ -21,9 +21,9 @@ Knuckle?      `knuckle.stl <hand/knuckle.stl>`_                         `knuckle
 ===========  =========================================================  ================================================================  ============================
 Little finger
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
+Name         Visual Mesh                                                Collision Mesh                                                    Coordinate System placed in
 ===========  =========================================================  ================================================================  ============================
-Metacarpal   `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                `lfmetacarpal_collision.stl <hand/lfmetacarpal_collision.stl>`_                Asm_Lttle_Metacarpal
+Metacarpal   `lfmetacarpal.stl <hand/lfmetacarpal.stl>`_                `lfmetacarpal_collision.stl <hand/lfmetacarpal_collision.stl>`_   Asm_Lttle_Metacarpal
 ===========  =========================================================  ================================================================  ============================
 
 ===========  =========================================================  =========================================================  ============================
