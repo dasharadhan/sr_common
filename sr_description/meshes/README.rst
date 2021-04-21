@@ -4,7 +4,7 @@ Meshes
 Dexterous Hand
 --------------
 
-.. image:: img/dexterous_hand_reference_frames_small.png
+.. image:: img/dexterous_hand_reference_frames.png
    :width: 10%
   
 ===========  =========================================================  =========================================================  ============================
