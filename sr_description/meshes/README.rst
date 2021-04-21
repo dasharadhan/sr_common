@@ -12,10 +12,10 @@ Fingers (Index to Ring)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name         Visual Mesh                                                Collision Mesh                                             Coordinate System placed in
 ===========  =========================================================  =========================================================  ============================
-Distal       `distal.stl <hand/distal.stl>`_                            `distal_collision.stl <hand/distal_collision.stl>`_        Asm_Distal
-Middle       `middle.stl <hand/middle.stl>`_                            `middle_collision.stl <hand/middle_collision.stl>`_        Asm_Middle_Right
-Proximal     `proximal.stl <hand/F3.stl>`_                              `proximal_collision.stl <hand/proximal_collision.stl>`_    Asm_Proximal_Hub
-Knuckle?      `knuckle.stl <hand/knuckle.stl>`_                         `knuckle_collision.stl <hand/knuckle_collision.stl>`_      Asm_Knuckle
+Distal       `<hand/distal.stl>`_                                       `<hand/distal_collision.stl>`_                             Asm_Distal
+Middle       `<hand/middle.stl>`_                                       `<hand/middle_collision.stl>`_                             Asm_Middle_Right
+Proximal     `<hand/F3.stl>`_                                           `<hand/proximal_collision.stl>`_                           Asm_Proximal_Hub
+Knuckle?     `<hand/knuckle.stl>`_                                      `<hand/knuckle_collision.stl>`_                            Asm_Knuckle
 ===========  =========================================================  =========================================================  ============================
 
 ===========  =========================================================  ================================================================  ============================
