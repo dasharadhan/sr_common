@@ -4,9 +4,9 @@ xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
 xmlns:xacro="http://www.ros.org/wiki/xacro"
 name="shadowhand_motor">
   <xacro:include filename="$(find sr_description)/materials.urdf.xacro" />
-  <xacro:include filename="$(find sr_description)/hand/xacro/full_hand.urdf.xacro" />
+  <xacro:include filename="$(find sr_description)/hand/xacro/hand_m.urdf.xacro" />
   <xacro:include filename="$(find sr_description)/other/xacro/gazebo/gazebo.urdf.xacro" />
-  <!-- C6 hand with BioTAC sensor
+  <!-- C6M2 hand with BioTAC sensor
   (C) 2012 fnh, hendrich@informatik.uni-hamburg.de
 -->
   <!-- hand with cylindrical base drifts in gazebo, attach it to the world -->
@@ -28,7 +28,7 @@ name="shadowhand_motor">
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry name="rh_forearm_disk_geom">
-        <mesh filename="package://sr_description/meshes/hand/forearm_muscle_disk.dae"
+        <mesh filename="package://sr_description/meshes/products/hand_m/C6M2/forearm_muscle_disk.dae"
         scale="1.0 1.0 1.0" />
       </geometry>
       <material name="Grey" />

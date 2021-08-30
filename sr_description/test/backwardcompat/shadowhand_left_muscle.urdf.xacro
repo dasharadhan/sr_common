@@ -4,7 +4,7 @@ xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
 xmlns:xacro="http://www.ros.org/wiki/xacro"
 name="shadowhand_muscle">
   <xacro:include filename="$(find sr_description)/materials.urdf.xacro" />
-  <xacro:include filename="$(find sr_description)/hand/xacro/full_hand.urdf.xacro" />
+  <xacro:include filename="$(find sr_description)/hand/xacro/hand_m.urdf.xacro" />
   <xacro:include filename="$(find sr_description)/other/xacro/gazebo/gazebo.urdf.xacro" />
   <!-- hand with cylindrical base drifts in gazebo, attach it to the world -->
   <link name="world" />
@@ -25,7 +25,7 @@ name="shadowhand_muscle">
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry name="lh_forearm_disk_geom">
-        <mesh filename="package://sr_description/meshes/hand/forearm_muscle_disk.dae"
+        <mesh filename="package://sr_description/meshes/products/hand_m/C6M2/forearm_muscle_disk.dae"
         scale="1.0 1.0 1.0" />
       </geometry>
       <material name="Grey" />

@@ -2,16 +2,34 @@
 # launch all the existing hand models in RVIZ for visual test. use CTRL-C to kill current test and enter to launch next one
 echo press enter after you tested and killed the launch file
 
+echo "ready to test Hand E"
 read -p "Press [Enter] key "
-SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=0   roslaunch sr_description test_hand_models.launch   #shadowhand_motor.urdf
+SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=0   roslaunch sr_description test_hand_models.launch   #sr_hand_e_right.urdf
 read -p "Press [Enter] key "
-SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=1   roslaunch sr_description test_hand_models.launch   #shadowhand_left_motor.urdf
+SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=1   roslaunch sr_description test_hand_models.launch   #sr_hand_e_left.urdf
+
 echo "ready to test shadowhand_lite.urdf"
 read -p "Press [Enter] key "
-SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=0  LITE=1  roslaunch sr_description test_hand_models.launch   #shadowhand_lite.urdf
+SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=0  LITE=1  roslaunch sr_description test_hand_models.launch   #sr_hand_g_right.urdf
+echo "ready to test shadowhand_lite.urdf"
+read -p "Press [Enter] key "
+SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=1  LITE=1  roslaunch sr_description test_hand_models.launch   #sr_hand_g_left.urdf
+
 echo "ready to test shadowhand_extra_lite.urdf"
 read -p "Press [Enter] key "
-SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=0  LITE=1 EXTRA_LITE=1 roslaunch sr_description test_hand_models.launch   #shadowhand_extra_lite.urdf
+SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=0  LITE=1 EXTRA_LITE=1 roslaunch sr_description test_hand_models.launch   #sr_hand_g_right_extra.urdf
+read -p "Press [Enter] key "
+SIMULATED=0  MUSCLE=0  BIOTAC_HAND=0  ELLIPSOID=0  ONE_FINGER=0  THREE_FINGER=0  LEFT_HAND=1  LITE=1 EXTRA_LITE=1 roslaunch sr_description test_hand_models.launch   #sr_hand_g_left_extra.urdf
+
+
+
+
+
+
+
+
+
+
 
 
 read -p "Press [Enter] key "

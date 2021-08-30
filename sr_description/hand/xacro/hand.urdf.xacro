@@ -1,0 +1,44 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"
+       xmlns:sensor="http://playerstage.sourceforge.net/gazebo/xmlschema/#sensor"
+       xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
+       xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface">
+
+  <!-- hand_version describes the hand type and version -->
+  <!-- side is either right or left -->
+  <!-- fingers describes which fingers are present, [th, ff, mf, rf, lf], default [1, 1, 1, 1, 1] -->
+  <!-- tip_sensors vector that describes the finger_tip: pst, bt_2p, bt_sp, ubi, eli -->
+  <!-- mid_sensors vector that describes the sensor none, ubi -->
+  <!-- prox_sensors vector that describes the sensor none, ubi -->
+  <!-- palm_sensor describes the sensor none, ubi -->
+  <xacro:macro name="sr_hand"
+               params="hand_version:='E3M5' side
+                      fingers:=${[1,1,1,1,1]}
+                      tip_sensors:=${['pst','pst','pst','pst','pst']}
+                      prox_sensors:=${['none','none','none','none','none']}
+                      mid_sensors:=${['none','none','none','none','none']}
+                      palm_sensor:=none">
+
+    <xacro:if value="${side == 'right'}">
+      <xacro:property name="reflect" value="1" />
+      <xacro:property name="prefix" value="rh_" />
+    </xacro:if>
+    <xacro:if value="${side == 'left'}">
+      <xacro:property name="reflect" value="-1" />
+      <xacro:property name="prefix" value="lh_" />
+    </xacro:if>
+
+    <!-- Selecting hand according with version -->
+    <xacro:if value="${hand_version.startswith('E')}">
+       <xacro:include filename="$(find sr_description)/hand/xacro/hand_e.urdf.xacro" />
+       <xacro:sr_hand_e />
+    </xacro:if>
+    <xacro:if value="${hand_version.startswith('G')}">
+       <xacro:include filename="$(find sr_description)/hand/xacro/hand_g.urdf.xacro" />
+       <xacro:sr_hand_g />
+    </xacro:if>
+    <xacro:if value="${hand_version.startswith('M')}">
+       <xacro:include filename="$(find sr_description)/hand/xacro/hand_m.urdf.xacro" />
+       <xacro:sr_hand_m />
+    </xacro:if>
+  </xacro:macro>
+</robot>

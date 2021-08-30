@@ -2,12 +2,12 @@
 xmlns:controller="http://playerstage.sourceforge.net/gazebo/xmlschema/#controller"
 xmlns:interface="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface"
 xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <xacro:include filename="$(find sr_description)/hand/xacro/forearm/forearm.urdf.xacro" />
+  <xacro:include filename="$(find sr_description)/hand/xacro/forearm/forearm_e.urdf.xacro" />
   <xacro:include filename="$(find sr_description)/hand/xacro/wrist/wrist.urdf.xacro" />
-  <xacro:include filename="$(find sr_description)/hand/xacro/palm/palm.urdf.xacro" />
+  <xacro:include filename="$(find sr_description)/hand/xacro/palm/palm_e.urdf.xacro" />
   <xacro:include filename="$(find sr_description)/hand/xacro/finger/fingers.urdf.xacro" />
   <xacro:include filename="$(find sr_description)/hand/xacro/thumb/thumb.urdf.xacro" />
-  <!-- hand_type describes the hand type, hand_e, hand_e_plus, hand_m (muscle) -->
+  <!-- hand_type describes the hand type, hand_m (muscle), hand_e, hand_g -->
   <!-- fingers describes which fingers are present, [th, ff, mf, rf, lf], default [1, 1, 1, 1, 1] -->
   <!-- muscletrans (deprecated) is true for muscle transmission to be used, false to use motor transmission -->
   <!-- muscle (deprecated) is true for muscle hand or false for motor hand -->
@@ -20,13 +20,14 @@ xmlns:xacro="http://www.ros.org/wiki/xacro">
   <!-- prox_sensors vector that describes the sensor std, none, ubi -->
   <!-- palm_sensor describes the sensor std, none, ubi -->
   <!-- reflect is either 1 (for right hand) or -1 (for left hand) -->
-  <!-- prefix can be anything but usually is "r_" or  "l_" for right and left hands distinction -->
+
   <!-- lf (deprecated) is true if we want a little finger, false otherwise -->
   <xacro:macro name="shadowhand"
-  params="hand_type:='hand_e' reflect prefix cable_mesh:=False
-          fingers:=${[1,1,1,1,1]} tip_sensors:=${['std','std','std','std','std']} prox_sensors:=${['std','std','std','std','std']}
-          mid_sensors:=${['std','std','std','std','std']} palm_sensor:=std
-          muscletrans:=False muscle:=False lf:=True bio:=False bt_sp:=False ubi:=False eli:=False">
+               params="hand_type:='hand_e' hand_version:='E3' reflect prefix cable_mesh:=False
+                      fingers:=${[1,1,1,1,1]} tip_sensors:=${['std','std','std','std','std']}
+                      prox_sensors:=${['std','std','std','std','std']}
+                      mid_sensors:=${['std','std','std','std','std']} palm_sensor:=std
+                      muscletrans:=False muscle:=False lf:=True bio:=False bt_sp:=False ubi:=False eli:=False">
     <!-- handle deprecated parameters -->
     <xacro:include filename="$(find sr_description)/hand/xacro/backward_compat.urdf.xacro" />   
     <!-- Forearm -->

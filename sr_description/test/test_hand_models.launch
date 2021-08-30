@@ -52,7 +52,7 @@
               </group>
               <group unless="$(optenv BIOTAC_HAND 0)">
                 <group if="$(optenv LEFT_HAND 0)">
-                  <param name="robot_description" command="xacro '$(find sr_description)/robots/shadowhand_left_motor.urdf.xacro'" />
+                  <param name="robot_description" command="xacro '$(find sr_description)/robots/sr_hand_e_left.urdf.xacro'" />
                 </group>
                 <group unless="$(optenv LEFT_HAND 0)">
                   <group if="$(optenv BTSP_HAND 0)">
@@ -72,7 +72,7 @@
                     </group>
                     <group unless="$(optenv LITE 0)">
                         <param name="robot_description"
-                          command="xacro '$(find sr_description)/robots/shadowhand_motor.urdf.xacro'" />
+                          command="xacro '$(find sr_description)/robots/sr_hand_e_right.urdf.xacro'" />
                     </group>
                   </group>
                 </group>
@@ -85,7 +85,7 @@
   </group>
   <!-- publish joint values, open gui if use_gui=True -->
   <group unless="$(optenv URDF_ONLY 0)">
-    <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui">
+    <node name="joint_state_publisher_gui" pkg="joint_state_publisher" type="joint_state_publisher_gui">
       <param name="use_gui" value="True" />
     </node>
     <!-- publish transforms of all robot links -->
