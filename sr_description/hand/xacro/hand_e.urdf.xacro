@@ -25,7 +25,7 @@
     <xacro:forearm />
     <!-- Wrist -->
     <xacro:wrist parent="${prefix}forearm">
-      <origin xyz="0 -0.010 0.213" rpy="0 0 0" />
+      <origin xyz="0 -0.010 0.21301" rpy="0 0 0" />
     </xacro:wrist>
     <!-- Palm -->
     <xacro:palm parent="${prefix}wrist" />
