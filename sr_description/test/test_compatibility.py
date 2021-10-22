@@ -37,6 +37,7 @@
 
 # Author: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
 
+from __future__ import absolute_import
 import ast
 import re
 import sys
@@ -52,6 +53,7 @@ try:
 except ImportError:
     # subTest was introduced in 3.4 only. Provide a dummy fallback.
     from contextlib import contextmanager
+
     @contextmanager
     def subTest(msg):
         yield None
